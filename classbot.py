@@ -57,6 +57,8 @@ async def on_message(message):
             "genpass <lunghezza> - ti do una password random\n"
             "help - ti mostro questo messaggio\n"
             "turnoff - spegne il bot (solo admin)"
+            "mem - ti da una meme con rarita, non lo so"
+            "oh e dice il peso della cacca di qualcuno a caso che parla, scusa"
         )
         await message.channel.send(help_message)
     elif message.content.startswith('turnoff'):
